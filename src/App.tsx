@@ -1,7 +1,7 @@
-import Block from "./components/Block/Block";
-import Button from "./components/Button/Button";
+import Block from "./components/Block";
+import Button from "./components/Button";
 import Header from "./components/Header";
-import CardsBlock from "./components/CardsBlock/CardsBlock";
+import CardsBlock from "./components/CardsBlock";
 
 import headerItems from "./data/headerItems";
 import { servicesItems } from "./data/serviceItems";
@@ -9,6 +9,7 @@ import { servicesItems } from "./data/serviceItems";
 import illustration_1 from './assets/images/illustrations/illustration_1.png';
 import illustration_2 from './assets/images/illustrations/illustration_2.png';
 import illustration_3 from './assets/images/illustrations/illustration_3.png';
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -49,6 +50,8 @@ function App() {
         isReverse={false}
         haveDivider={true}
         isDividerCentered={false}/>
+
+      <Footer/>
     </>
   )
 }

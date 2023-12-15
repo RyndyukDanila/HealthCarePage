@@ -44,4 +44,5 @@ hr {
 .block__illustration img {
   width: 100%;
   min-width: 300px;
+  padding: 0px 0px 100px 0px;
 }

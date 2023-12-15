@@ -4,11 +4,14 @@
   --primary-bg-color: #FFFFFF;
   --primary-logo-text-color: #FFFFFF;
   --primary-logo-bg-color: #458FF6;
+  --secondary-logo-text-color: #458FF6;
+  --secondary-logo-bg-color: #FFFFFF;
   
   --primary-divider-color: #000000;
 
   --primary-text-color: #000000;
   --secondary-text-color: #7D7987;
+  --footer-text-color: #FFFFFF;
 
   --primary-button-border-color: #458FF6;
   --primary-button-bg-color: #458FF6;
@@ -18,6 +21,8 @@
 
   --primary-card-bg-color: #FFFFFF;
   --primary-card-shadow-color: rgba(229, 233, 246, 0.4);
+
+  --footer-gradient: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
 
   color: var(--primary-text-color);
   font-family: 'Mulish', serif;
