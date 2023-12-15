@@ -33,14 +33,14 @@
   gap: 40px;
 }
 
-a {
+.links a {
   opacity: 0.5;
   font-size: 18px;
 }
-a.isOpen {
+.links a.isOpen {
   opacity: 1;
   font-weight: 700;
 }
-a:hover {
+.links a:hover {
   opacity: 0.75;
 }

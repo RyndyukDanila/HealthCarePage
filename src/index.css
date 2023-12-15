@@ -4,7 +4,19 @@
   --primary-bg-color: #FFFFFF;
   --primary-logo-text-color: #FFFFFF;
   --primary-logo-bg-color: #458FF6;
+  
+  --primary-text-color: #000000;
 
+  --primary-text-color: #000000;
+  --secondary-text-color: #7D7987;
+
+  --primary-button-border-color: #458FF6;
+  --primary-button-bg-color: #458FF6;
+  --primary-button-text-color: #FFFFFF;
+  --secondary-button-bg-color: #FFFFFF;
+  --secondary-button-text-color: #458FF6;
+
+  color: var(--primary-text-color);
   font-family: 'Mulish', serif;
 
   -webkit-font-smoothing: antialiased;
@@ -16,10 +28,10 @@ body {
 }
 
 a {
-  color: var(--primary-link-color);
+  color: var(--primary-text-color); 
   text-decoration: none;
 }
 a:visited {
-  color: inherit;
-  text-decoration: inherit;
+  color: var(--primary-text-color); 
+  text-decoration: none;
 }

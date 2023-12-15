@@ -13,14 +13,14 @@ const Header = (args: {items: IHeaderItem[]}) => {
     }
 
     return <nav className={styles.nav}>
-                <div className={styles.logo}>
-                    <div className={styles.logo__item}>{'T'}</div>
-                    <div className={styles.logo__text}>{'HealthCare'}</div>
-                </div>
-                <div className={styles.links}>
-                    {getHeaderItems()}
-                </div>
-            </nav>
+        <div className={styles.logo}>
+            <div className={styles.logo__item}>{'T'}</div>
+            <div className={styles.logo__text}>{'HealthCare'}</div>
+        </div>
+        <div className={styles.links}>
+            {getHeaderItems()}
+        </div>
+    </nav>
 }
 
 export default Header;
