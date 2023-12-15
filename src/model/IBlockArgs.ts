@@ -7,6 +7,7 @@ interface IBlockArgs {
     illustration: string,
     isReverse: boolean,
     haveDivider: boolean,
+    isDividerCentered: boolean,
 }
 
 export default IBlockArgs;

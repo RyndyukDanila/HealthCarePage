@@ -8,7 +8,11 @@ const Block = (args: IBlockArgs) => {
             <div className={styles.tile__title}>
                 {args.title}
             </div>
-            {args.haveDivider ? <hr/>: ''}
+            {args.haveDivider 
+            ? args.isDividerCentered 
+                ? <hr style={{margin: '0 auto'}}/> 
+                : <hr/>
+            : ''}
             <div className={styles.tile__subtitle}>
                 {args.subtitle}
             </div>
@@ -27,13 +31,13 @@ const Block = (args: IBlockArgs) => {
             {
                 args.isReverse ?
                     <>
-                        {tile}
                         {illustration}
+                        {tile}
                     </>
                     :
                     <>
-                        {illustration}
                         {tile}
+                        {illustration}
                     </>
             }
         </section>
