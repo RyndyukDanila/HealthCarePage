@@ -31,9 +31,9 @@
 }
 
 hr {
-  margin-left: 0;
+  margin: 0 auto;
   width: 60px;
-  border-bottom: 1px solid var(--primary-divider-color);
+  border: 1px solid var(--primary-divider-color);
 }
 
 .block__illustration {
