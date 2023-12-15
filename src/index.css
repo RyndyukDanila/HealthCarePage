@@ -1,60 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Mulish');
+
 :root {
-  --main-text-color: rgba(255, 255, 255, 0.87);
-  --main-bg-color: #242424;
-  --link-color: #646cff;
-  --link-hover-color: #535bf2;
-  --main-button-bg-color: #af0f0f;
-  --main-button-hover-border-color: #ffaa00;
+  --primary-bg-color: #FFFFFF;
+  --primary-logo-text-color: #FFFFFF;
+  --primary-logo-bg-color: #458FF6;
+  --secondary-logo-text-color: #458FF6;
+  --secondary-logo-bg-color: #FFFFFF;
+  
+  --primary-divider-color: #000000;
 
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  --primary-text-color: #000000;
+  --secondary-text-color: #7D7987;
+  --footer-text-color: #FFFFFF;
 
-  color-scheme: light dark;
-  color: var(--main-text-color);
-  background-color: var(--main-bg-color);
+  --primary-button-border-color: #458FF6;
+  --primary-button-bg-color: #458FF6;
+  --primary-button-text-color: #FFFFFF;
+  --secondary-button-bg-color: #FFFFFF;
+  --secondary-button-text-color: #458FF6;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
+  --primary-card-bg-color: #FFFFFF;
+  --primary-card-shadow-color: rgba(229, 233, 246, 0.4);
+
+  --footer-gradient: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+
+  color: var(--primary-text-color);
+  font-family: 'Mulish', serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: var(--link-color);
-  text-decoration: inherit;
-}
-a:hover {
-  color: var(--link-hover-color);
-}
-
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+a {
+  text-decoration: none;
 }
-
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --main-text-color: #213547;
-    --main-bg-color: #ffffff;
-  }
-  a:hover {
-    --link-hover-color: #747bff;
-  }
+a:visited { 
+  text-decoration: none;
 }
