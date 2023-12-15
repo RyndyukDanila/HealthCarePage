@@ -46,7 +46,7 @@
 }
 
 .footer__column a {
-  color: white;
+  color: var(--footer-text-color);
   font-size: 18px;
   font-weight: 300;
 }

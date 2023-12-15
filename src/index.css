@@ -36,10 +36,8 @@ body {
 }
 
 a {
-  color: var(--primary-text-color); 
   text-decoration: none;
 }
-a:visited {
-  color: var(--primary-text-color); 
+a:visited { 
   text-decoration: none;
 }
